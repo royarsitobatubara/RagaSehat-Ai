@@ -1,6 +1,13 @@
 # 🌐 **SERVER RagaSehat**
 
 ### 🚀 **How to Start**
+ ```bash
+ # Masuk kedalam dir server
+ cd server
+
+ # Perintah untuk penginstalan library dan projek
+ make server-init
+ ```
 
 ### 🏃‍♀️‍➡️ **How to Running**
 
@@ -28,7 +35,7 @@
 | :--- | :--- | :--- |
 | **Heart Disease** | Data indikator medis & risiko serangan jantung | [Kaggle - Heart](https://www.kaggle.com/datasets/jumainzulkaidah/data-penyakit-jantung) |
 | **Cholesterol Level** | Data profil lipid (LDL, HDL, Trigliserida) | [Kaggle - Lipid & Cholesterol Dataset](https://www.kaggle.com/datasets) |
-| **Diabetes / Gula Darah** | Indikator glukosa puasa & riwayat diabetes | [Kaggle - Pima Indians Diabetes](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database) |
+| **Diabetes** | Indikator glukosa puasa & riwayat diabetes | [Kaggle - Diabetes](https://www.kaggle.com/datasets/ehababoelnaga/diabetes-dataset) |
 
 > **Catatan:** Seluruh file `.csv` mentah disimpan di dalam folder `data/` dan diolah terlebih dahulu di `src/notebooks/` sebelum model diekspor ke `model/`.
 
